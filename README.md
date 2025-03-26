@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to predict student job placement outcomes based on their academic performance and other relevant features. The dataset includes student details such as their SSC, HSC, Degree, and MBA percentages, as well as gender, subject preferences, and placement status. The goal is to build a machine learning model that can predict whether a student will be placed in a company.
+This project aims to predict student job placement outcomes based on their academic performance and other relevant features. The dataset includes student details such as their SSC, Intermediate percentages, as well as gender, subject preferences, and placement status. The goal is to build a machine learning model that can predict whether a student will be placed in a company.
 
 ## Technologies Used
 
@@ -28,21 +28,14 @@ The dataset consists of the following columns:
 - status: The placement status (whether the student was placed or not).
 
 ## Installation
-
-To use this project, clone the repository to your local machine:
-
-bash
 git clone https://github.com/yourusername/job-placement-prediction.git
 cd job-placement-prediction
 
 
-Then, install the necessary dependencies:
-
-bash
+# Then, install the necessary dependencies:
 pip install -r requirements.txt
 
-
-The requirements.txt file includes all the Python libraries used in the project.
+# The requirements.txt file includes all the Python libraries used in the project.
 
 ## How to Use
 
@@ -103,9 +96,7 @@ print(f"Confusion Matrix: \n{confusion_matrix(y_test, y_pred)}")
 
 
 ## Results
-
 The project evaluates the performance of different machine learning models, and the evaluation metrics are compared to determine the most accurate model for predicting job placements.
 
 ## Conclusion
-
 This project demonstrates the power of machine learning in predicting job placements based on various student metrics. By applying different algorithms and comparing their performance, we can gain insights into the most influential factors for placement success.
