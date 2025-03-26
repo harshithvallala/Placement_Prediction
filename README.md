@@ -32,10 +32,10 @@ git clone https://github.com/yourusername/job-placement-prediction.git
 cd job-placement-prediction
 
 
-# Then, install the necessary dependencies:
+## Then, install the necessary dependencies:
 pip install -r requirements.txt
 
-# The requirements.txt file includes all the Python libraries used in the project.
+## The requirements.txt file includes all the Python libraries used in the project.
 
 ## How to Use
 
